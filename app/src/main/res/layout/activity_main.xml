@@ -10,7 +10,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_8sdp">
+        >
 
         <com.google.android.exoplayer2.ui.PlayerView
             android:id="@+id/simpleexoplayer"
@@ -35,6 +35,7 @@
             android:visibility="gone" />
 
         <ImageView
+            android:paddingStart="@dimen/_8sdp"
             android:id="@+id/btnext"
             android:layout_width="@dimen/_26sdp"
             android:layout_height="@dimen/_26sdp"
@@ -42,6 +43,7 @@
             android:src="@drawable/next" />
 
         <ImageView
+            android:paddingEnd="@dimen/_8sdp"
             android:id="@+id/btprevious"
             android:layout_width="@dimen/_26sdp"
             android:layout_height="@dimen/_26sdp"

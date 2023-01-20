@@ -21,10 +21,10 @@ import com.silverorange.videoplayer.viewmodel.VideoListViewModel
 class MainActivity : AppCompatActivity() {
     var player: ExoPlayer? = null
     var index: Int = 0
+
     lateinit var videolist: VideoList
     lateinit var playerView: PlayerView;
     var videoListViewModel: VideoListViewModel? = null
-    var video_url: String = "https://d140vvwqovffrf.cloudfront.net/media/5e87b9a811599/full/720.mp4"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
